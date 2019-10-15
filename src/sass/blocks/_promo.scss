@@ -1,0 +1,19 @@
+.promo {
+    background: url('../img/main_bg.jpg') center (center/cover) no-repeat;
+    min-height: 800px;
+    padding: 39px 0 62px 0;
+    &-logo {
+        &__img {
+            display: block;
+            margin: 0 auto;
+        }
+        &__descr {
+            margin-top: 14px;
+            color: #ffffff;
+            font-size: 15px;
+            font-weight: 500;
+            text-transform: uppercase;
+            text-align: center;
+        }
+    }
+}
