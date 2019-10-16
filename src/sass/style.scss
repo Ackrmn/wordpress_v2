@@ -1,8 +1,12 @@
 * {
     font-family: 'Roboto', sans-serif;
 }
-
+h1, h2 {
+    margin-bottom: 0;
+}
 @import 'base/variables';
 @import 'base/mixins';
 
 @import 'blocks/promo';
+@import 'blocks/buttons';
+@import 'blocks/waiting';
