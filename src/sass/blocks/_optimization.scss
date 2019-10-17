@@ -1,0 +1,32 @@
+.optimization {
+    min-height: 550px;
+    padding: 102px 0 107px 0;
+    .container {
+        position: relative;
+    }
+    &-descr {
+        &__title {
+            color: #299cbd;
+            font-size: 30px;
+            font-weight: 900;
+            text-transform: uppercase;
+        }
+        &__text {
+            margin-top: 25px;
+            color: #4a4a4a;
+            font-size: 17px;
+            font-weight: 300;
+            line-height: 27px;
+            span {
+                font-weight: 700;
+            }
+        }
+    }
+    &__img {
+        display: block;
+        position: absolute;
+        top: 54px;
+        left: -240px;
+        z-index: -1;
+    }
+}
