@@ -2,6 +2,10 @@
     background: url('../img/main_bg.jpg') center (center/cover) no-repeat;
     min-height: 800px;
     padding: 39px 0 62px 0;
+    .container {
+        padding-right: 0;
+        padding-left: 0;
+    }
     &-logo {
         &__img {
             display: block;
@@ -43,6 +47,23 @@
         text-transform: uppercase;
         text-align: center;
         line-height: 60px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        &:before {
+            content: '';
+            display: block;
+            width: 292px;
+            height: 2px;
+            background-color: #ffffff;
+        }
+        &:after {
+            content: '';
+            display: block;
+            width: 292px;
+            height: 2px;
+            background-color: #ffffff;
+        }
     }
     &__text {
         margin-top: 23px;
