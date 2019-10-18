@@ -1,0 +1,31 @@
+.footer {
+    min-height: 166px;
+    background-color: #1a1a1a;
+    padding: 61px 0 69px 0;
+    text-align: center;
+    color: #888888;
+    font-size: 15px;
+    font-weight: 300;
+    &-links {
+        &__link {
+            color: #888888;
+            font-size: 15px;
+            font-weight: 300;
+            text-decoration: underline;
+            &:hover {
+                color: #888888;
+            }
+        }
+    }
+    &-call {
+        margin-top: 10px;
+        &__phone {
+            color: #888888;
+            font-size: 15px;
+            font-weight: 300;
+            text-decoration: underline;
+            &:hover {
+                color: #888888;
+            }
+    }   }   
+}
